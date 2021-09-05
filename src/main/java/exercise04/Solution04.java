@@ -29,6 +29,6 @@ public class Solution04 {
         String adjective = scanner.nextLine();
         System.out.print("Enter an adverb: ");
         String adverb = scanner.nextLine();
-        System.out.println("Do you " + verb + " your " + adjective + " " + noun + " " + adverb + "? That's hilarious!");
+        System.out.printf("Do you " + verb + " your " + adjective + " " + noun + " " + adverb + "? That's hilarious!");
     }
 }
